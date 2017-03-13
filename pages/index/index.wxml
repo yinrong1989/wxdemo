@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="test1" bindtap="bindtapTest1">
+    <text class="user-motto">测试1</text>
+  </view>
+   <view class="test2" bindtap="bindtapTest2">
+    <text class="user-motto">测试2</text>
+  </view>
+   <view class="test3" bindtap="bindtapTest3">
+    <text class="user-motto">测试3</text>
+  </view>
+   <view class="test4" bindtap="bindtapTest4">
+    <text class="user-motto">测试4</text>
+  </view>
+   <view class="test5" bindtap="bindtapTest5">
+    <text class="user-motto">测试5</text>
+  </view>
+   <view class="test6" bindtap="bindtapTest6">
+    <text class="user-motto">测试6</text>
+  </view>
+ 
+</view>

@@ -1,0 +1,45 @@
+<!--<view class="section">
+  <view class="section__title">flex-direction: row</view>
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+  </view>
+</view>
+<view class="section">
+  <view class="section__title">flex-direction: column</view>
+  <view class="flex-wrp" style="height: 300px;flex-direction:column;">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+  </view>
+</view>
+-->
+<view class="group">
+    <icon type="success" size="20"/>
+    <icon type="success" size="30"/>
+    <icon type="success" size="40"/>
+    <icon type="success" size="50"/>
+    <icon type="success" size="60"/>
+    <icon type="success" size="70"/>
+</view>
+<view>
+<text>文本内容测试</text>
+<text>{{text}}</text>
+<button bindtap="add">add line</button>
+<button bindtap="remove">remve line</button>
+</view>
+
+<progress percent="20" show-info/>
+<progress percent="40" stroke-width="12"/>
+<progress percent="60" color="pink"/>
+<progress percent="80" active/>
+<button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> default </button>
+<button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"> primary </button>
+<button type="warn" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="warn"> warn </button>
+<button bindtap="setDisabled">点击设置以上按钮disabled属性</button>
+<button bindtap="setPlain">点击设置以上按钮plain属性</button>
+<button bindtap="setLoading">点击设置以上按钮loading属性</button>

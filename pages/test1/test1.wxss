@@ -1,0 +1,24 @@
+.bc_green{
+    background: green;
+    width:50px;
+    float: left
+}
+.bc_red{
+    background: red;
+    width:50px;
+    float: left
+}
+.bc_blue{
+    background: blue;
+    width:50px;
+    float: left
+}
+/** wxss **/
+/** 修改button默认的点击态样式类**/
+.button-hover {
+  background-color: red;
+}
+/** 添加自定义button点击态样式类**/
+.other-button-hover {
+  background-color: blue;
+}
